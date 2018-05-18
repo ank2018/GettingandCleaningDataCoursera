@@ -25,6 +25,6 @@ The R script run_analysis.R does the following. Further details are in CodeBook.
 6.	Uses descriptive activity names to name the activities in the data set
 7.	Appropriately labels the data set with descriptive variable names.
 8.	From the data set in above step, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-9.	Writes the final tidy data “Coursefinaltidydata.csv” in two directories above the current data set directory.
+9.	Writes the final tidy data “Coursefinaltidydata.txt” in two directories above the current data set directory.
 
 Further information can be located in the CodeBook.md file.
