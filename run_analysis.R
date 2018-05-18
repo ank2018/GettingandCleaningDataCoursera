@@ -106,4 +106,3 @@ print("writing the tidy data to Coursefinaltidydata.txt in one directory above t
 setwd("../..")
 write.table(finaltidydata,file="Coursefinaltidydata.txt", row.names = FALSE)
 
-
