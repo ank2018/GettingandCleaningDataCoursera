@@ -55,7 +55,7 @@ It also prints messages to show the progress made during the script execution.
 * "Merging the activity names to name the activities"
 * "Labelling the data set with descriptive variable names"
 * "Creating a clean tidy data set with average for each variable for each activity and each subject"
-* "writing the tidy data to Coursefinaltidydata.csv in one directory above the data set directory"
+* "writing the tidy data to Coursefinaltidydata.txt in one directory above the data set directory"
 
 ## Final set of columns as below:
 	activityid  
