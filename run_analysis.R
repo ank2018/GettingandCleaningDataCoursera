@@ -102,8 +102,8 @@ avgcoldataagg <- aggregate(.~ activityid+subjectid,avgcoldata,FUN = mean)
 finaltidydata <- merge(readactivitylabels,avgcoldataagg,by = "activityid",all.y = TRUE)
 
 # write the final tidy data set to a file
-print("writing the tidy data to Coursefinaltidydata.csv in one directory above the data set directory")
+print("writing the tidy data to Coursefinaltidydata.txt in one directory above the data set directory")
 setwd("../..")
-write.csv(finaltidydata,file="Coursefinaltidydata.csv", row.names = FALSE)
+write.table(finaltidydata,file="Coursefinaltidydata.txt", row.names = FALSE)
 
   
